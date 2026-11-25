@@ -5,13 +5,23 @@ passarinho = 10
 tartaruga = 1
 
 lista = []
-animais = []
 
 lista.append(cachorro)
 lista.append(gato)
 
-animais.append(f"Cachorros: {cachorro}")
-animais.append(f"Gatos: {gato}")
-
 print(lista)
-print(animais)
+
+# índice
+dog = 30
+cat = 10
+bird = 20
+turtle = 5
+
+minha_listinha = []
+minha_listinha.append(dog)
+minha_listinha.append(cat)
+minha_listinha.append(bird)
+minha_listinha.append(turtle)
+
+print(minha_listinha[3])
+print(minha_listinha[0])
